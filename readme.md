@@ -1,11 +1,11 @@
 
-# BTRH Assignment
+# URL Shortener
 
-Interview task according to the requirement of a laravel application with basic user registration, login and welcome message on dashboard
+Url-Shortener is a Laravel Application which allow user to input long url and generate short, sharable link
 
 ## Prerequisite
 
-- PHP v8
+- PHP 8.1
 - Laravel v10
 - Mysql
 
@@ -14,22 +14,23 @@ Interview task according to the requirement of a laravel application with basic 
 Clone the project
 
 ```bash
-  git clone https://github.com/S4F4Y4T/BTRH-Assignment
+  git clone https://github.com/S4F4Y4T/Url-Shortener
 ```
 
-- Update .env file to modify credentials for your mysql database and run
+- Update .env file to modify credentials for your mysql database and App Info
+
+Go to the project directory
+
+```bash
+  cd Url-Shortener
+```
+Run Databasae Migration
 
 ```bash
   php artisan migrate
 ```
 
-Go to the project directory
-
-```bash
-  cd BTRH-Assignment
-```
-
-Run the project
+Start The Project
 
 ```bash
   php artisan serve
